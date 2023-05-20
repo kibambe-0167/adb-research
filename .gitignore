@@ -1,0 +1,5 @@
+# add put the database to github. use git LFS
+data/
+
+# dont add envs to github.
+env-adb/
