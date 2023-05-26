@@ -3,3 +3,6 @@ data/
 
 # dont add envs to github.
 env-adb/
+
+# some data.
+PCA_FE/Subset/
