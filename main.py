@@ -3,7 +3,6 @@ import numpy as np
 #first you create filters for each feature to extract, this is defined by the method below
 def generate_face_feature_filters():
     filters = []
-
     # Edge detection filters
     orientations = [0, 45, 90, 135]
     scales = [0.5, 1.0, 1.5]
