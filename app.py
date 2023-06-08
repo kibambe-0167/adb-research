@@ -10,7 +10,6 @@ import numpy as np
 import os
 # 
 img_data_gen_obj = ImageDataGenerator()
-
 #
 # 
 
@@ -22,7 +21,7 @@ class DataStandardization():
         self.image = image
         self.image_size_x = 250
         self.image_size_y = 250
-        self. root_path = "./data/faces/img_align_celeba/img_align_celeba/"
+        self.root_path = "./data/faces/img_align_celeba/img_align_celeba/"
         self.data_gen = ImageDataGenerator(
             # 
             rotation_range=10,  # 
@@ -36,7 +35,7 @@ class DataStandardization():
     
     def load_image_data_gen(self, ):
         train_generator = self.data_gen.flow_from_directory(
-            root_path,
+            self.root_path,
             target_size=(self.image_size_y, self.image_size_x),
             batch_size=32,
             # os.path.join(root_path),
@@ -46,7 +45,7 @@ class DataStandardization():
     
     def load_image(self, image_id):
         '''load an image from file. receive the image path.'''
-        path = os.path.join(root_path, image_id)
+        path = os.path.join(self.root_path, image_id)
         return load_img(path)
     
     def resize_image(self, target_size):
