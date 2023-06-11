@@ -26,6 +26,7 @@ gast==0.4.0
 google-auth==2.18.1
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
+graphviz==0.20.1
 grpcio==1.54.2
 h5py==3.8.0
 idna==3.4
@@ -36,6 +37,7 @@ ipython-genutils==0.2.0
 isoduration==20.11.0
 jedi==0.18.2
 Jinja2==3.1.2
+joblib==1.2.0
 jsonpointer==2.3
 jsonschema==4.17.3
 jupyter-events==0.6.3
@@ -61,6 +63,7 @@ notebook==6.5.4
 notebook_shim==0.2.3
 numpy==1.24.3
 oauthlib==3.2.2
+opencv-python==4.7.0.72
 opt-einsum==3.3.0
 packaging==23.1
 pandas==2.0.1
@@ -79,7 +82,9 @@ pure-eval==0.2.2
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycparser==2.21
+pydot==1.4.2
 Pygments==2.15.1
+pyparsing==3.0.9
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.7
@@ -93,6 +98,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rsa==4.9
 scikit-image==0.20.0
+scikit-learn==1.2.2
 scipy==1.10.1
 Send2Trash==1.8.2
 six==1.16.0
@@ -106,6 +112,7 @@ tensorflow-estimator==2.13.0rc0
 tensorflow-macos==2.13.0rc0
 termcolor==2.3.0
 terminado==0.17.1
+threadpoolctl==3.1.0
 tifffile==2023.4.12
 tinycss2==1.2.1
 tornado==6.3.2
